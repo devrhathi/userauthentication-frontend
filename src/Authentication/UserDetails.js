@@ -26,7 +26,7 @@ export default function UserDetails() {
       alert("No Users Found, Please Signup again");
     }
     const JWT_TOKEN = JSON.parse(JSON_JWT_TOKEN);
-    const url = "http://localhost:3001/userDetails";
+    const url = "https://safe-dawn-63028.herokuapp.com/userDetails";
 
     //send a get request along with the token
     if (JWT_TOKEN) {

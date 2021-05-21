@@ -26,7 +26,7 @@ export default function EditModal(props) {
       body: JSON.stringify(data),
     };
 
-    const url = "http://localhost:3001/editUserDetails";
+    const url = "https://safe-dawn-63028.herokuapp.com/editUserDetails";
 
     fetch(url, reqData)
       .then((res) => res.json())

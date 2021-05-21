@@ -12,7 +12,7 @@ export default function Login() {
     const JSON_JWT_TOKEN = localStorage.getItem("JWT_TOKEN");
     const JWT_TOKEN = JSON.parse(JSON_JWT_TOKEN);
     //now send the email password along with the token, to verify user
-    const url = "http://localhost:3001/login";
+    const url = "https://safe-dawn-63028.herokuapp.com/login";
 
     if (!JWT_TOKEN) {
       alert("Please Signup first!");

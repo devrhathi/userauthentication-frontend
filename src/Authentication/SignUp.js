@@ -22,7 +22,7 @@ export default function SignUp() {
       body: JSON.stringify(data),
     };
 
-    const url = "http://localhost:3001/signup";
+    const url = "https://safe-dawn-63028.herokuapp.com/signup";
     let JWT_TOKEN;
 
     if (formData.get("password") !== formData.get("confirmPassword")) {
