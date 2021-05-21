@@ -1,0 +1,15 @@
+.UserDetails {
+  padding-top: 3rem;
+}
+
+.UserDetails table {
+  border: 1px solid black;
+  width: 65%;
+  margin-top: 2rem;
+  margin: 0 auto;
+}
+
+.UserDetails * {
+  text-align: center;
+  padding: 0.5rem 0.2rem;
+}

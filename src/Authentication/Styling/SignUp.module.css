@@ -1,0 +1,15 @@
+.SignUp * {
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.loginBtn {
+  margin: 0 43% !important;
+  text-align: center;
+  margin: auto;
+  background: none;
+}
+
+.loginBtn:hover {
+  cursor: pointer;
+}

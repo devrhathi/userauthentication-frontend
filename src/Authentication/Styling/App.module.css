@@ -1,0 +1,12 @@
+.App {
+  display: flexbox;
+  margin: auto;
+  padding: auto;
+}
+
+.App li {
+  display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  padding: 0.5rem;
+}
