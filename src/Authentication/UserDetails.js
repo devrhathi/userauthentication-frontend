@@ -44,7 +44,6 @@ export default function UserDetails() {
         })
         .then((res) => {
           if (res) {
-            console.log(res);
             let data = {
               username: res.username,
               email: res.email,
@@ -53,9 +52,7 @@ export default function UserDetails() {
             setUserData(data);
           }
         })
-        .catch((err) => {
-          console.log("reached");
-        });
+        .catch((err) => {});
     }
   }, []);
 

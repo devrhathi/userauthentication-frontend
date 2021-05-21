@@ -5,6 +5,7 @@ export default function EditModal(props) {
   let modal;
 
   const handleSubmit = (event) => {
+    event.preventDefault();
     const formData = new FormData(event.target);
 
     const data = {
@@ -36,7 +37,7 @@ export default function EditModal(props) {
           "JWT_TOKEN",
           JSON.stringify({ JWT_TOKEN: JWT_TOKEN })
         );
-        console.log(JWT_TOKEN);
+        window.location.reload();
       })
       .catch((err) => {
         console.log(err);
